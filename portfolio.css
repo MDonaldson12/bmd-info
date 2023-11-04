@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+	background-color: rgb(250, 250, 250);
+    overflow-x: hidden;
+}
+
+.full-page
+{
+    max-width: 1440px;
+    margin: auto;
+}
+
+header
+{
+    font-family: 'Calibri', Montserrat, sans-serif;
+}

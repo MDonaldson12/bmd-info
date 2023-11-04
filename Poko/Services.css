@@ -1,0 +1,216 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: rgb(245,245,245);
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/image8.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+
+.Logo img
+{
+	height: auto;
+	width: 66px;
+	float: left;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+#name
+{
+	float: left;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: AmeriGarmnd BT, Cambria, arial, sans-serif;
+	color: rgb(0,168,191);
+	margin-top: 20px;
+	transform: translateX(-8%);
+}
+
+.hm
+{
+	margin-top: 30px;
+	display: inline-flex;
+	float: right;
+	margin-right: 100px;
+}
+
+.Menu li
+{
+	list-style: none;
+	display: inline-block;
+}
+
+.Menu a
+{
+	text-decoration: none;
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	padding: 5px 20px;
+}
+
+.sous-menu li
+{
+	display: none;
+	padding: 6px 5px;
+}
+
+.sous-menu a
+{
+	color: #fff;
+}
+
+.Menu li:hover .sous-menu li
+{
+	display: block;
+}
+
+.Menu li:hover
+{
+	font-weight: 600;
+}
+
+.active
+{
+	border: 2px solid rgb(0,168,191);
+}
+
+.sous-menu
+{
+	position: absolute;
+	width: 260px;
+	padding: 10px 12px;
+}
+
+.sous-menu li:hover
+{
+	font-style: italic;
+	font-weight: normal;
+}
+
+.SM_icon i
+{
+	padding: 0 5px;
+	color: rgb(0,168,191);
+}
+
+.SM_icon i:hover
+{
+	color: orange;
+}
+
+.gade
+{
+	position: fixed;
+	background-color: rgb(245,245,245);
+	width: 100vw;
+	left: 0;
+	z-index: 2;
+}
+
+.prob
+{
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	z-index: 1;
+	color: #000;
+	margin-left: 130px;
+	background-color: white;
+	padding: 70px 30px;
+	font-family: "Poppins", sans-serif;
+}
+
+.prob i
+{
+	color: rgb(0,168,191);
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.prob p
+{
+	width: 268px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.svc
+{
+	display: inline-block;
+	padding: 5px 20px;
+}
+
+.prob h4,
+.prob p
+{
+	text-align: center;
+}
+
+.prob h4
+{
+	padding-bottom: 10px;
+}
+
+.svc-two h4
+{
+	transform: translateX(-5%);
+}
+
+.prob .fas,
+.prob #fab
+{
+	margin-left: 100px;
+}
+
+.fa-pen-nib
+{
+	transform: translateX(70%);
+}
+
+.fa-laptop-code
+{
+	transform: translateX(50%);
+}
+
+.our
+{
+	position: absolute;
+	top: 130%;
+	transform: translateY(-50%);
+	margin-left: 200px;
+	color: #000;
+}
+
+.our h3
+{
+	font-family: sans-serif;
+	text-align: center;
+	transform: translate(-10%, -60%);
+	padding: 5px 0;
+}
+
+.pictures img
+{
+	width: 300px;
+	height: auto;
+	padding: 10px 5px;
+	display: inline-block;
+}
+
+.row
+{
+	max-width: 1300px;
+	margin: auto;
+}
